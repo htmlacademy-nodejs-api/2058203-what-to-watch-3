@@ -2,14 +2,14 @@ import {Genre} from './film-genre.enum.js';
 import { User } from './user.type.js';
 
 export type Film = {
-  title: string;
+  titleFilm: string;
   description: string;
   publicationDate: Date;
   genre: Genre[];
   releaseYear: number;
   rating: number;
-  preview: string;
-  video: string;
+  filmPreview: string;
+  filmVideo: string;
   actors: string[];
   producers: string[];
   duration: number;

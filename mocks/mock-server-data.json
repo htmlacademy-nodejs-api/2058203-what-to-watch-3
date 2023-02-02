@@ -1,0 +1,100 @@
+{
+  "api": {
+    "titles": [
+      "Aviator",
+      "The Grand Budapest Hotel",
+      "Bohemian rhapsody",
+      "Fantastic Beasts: The Crimes of Grindelwald",
+      "Dardjeeling limited",
+      "Johnny English",
+      "Revenant"
+    ],
+    "description": [
+      "In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.",
+      "In an effort to thwart Grindelwald's plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.",
+      "In an effort to thwart Grindelwald's plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.",
+      "In an effort to thwart Grindelwald's plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder."
+    ],
+    "rating": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "filmPrewiew": [
+      "Aviator_preview.mp4",
+      "The-grand-budapest-hotel_preview.mp4",
+      "Bohemian-rhapsody_preview.mp4",
+      "FantasticBeastsTheCrimesofGrindelwald_preview.mp4",
+      "Dardjeeling-limited_preview.mp4",
+      "Johnny-english_preview.mp4",
+      "Revenant_preview.mp4"
+    ],
+    "filmVideo": [
+      "Aviator.mp4",
+      "The-grand-budapest-hotel.mp4",
+      "Bohemian-rhapsody.mp4",
+      "FantasticBeastsTheCrimesofGrindelwald.mp4",
+      "Dardjeeling-limited.mp4",
+      "Johnny-english.mp4",
+      "Revenant.mp4"
+    ],
+    "actors": [
+      "Actors1",
+      "Actors2",
+      "Actors3",
+      "Actors4",
+      "Actors5",
+      "Actors6",
+      "Actors7"
+    ],
+    "producers": [
+      "Producers1",
+      "Producers2",
+      "Producers3",
+      "Producers4",
+      "Producers5",
+      "Producers6",
+      "Producers7"
+    ],
+    "poster": [
+      "aviator.jpg",
+      "the-grand-budapest-hotel-poster.jpg",
+      "bohemian-rhapsody.jpg",
+      "fantastic-beasts-the-crimes-of-grindelwald.jpg",
+      "dardjeeling-limited.jpg",
+      "johnny-english.jpg",
+      "revenant.jpg"
+    ],
+    "users": [
+      "Петров Петр",
+      "Павлов Павел",
+      "Борисов Борис",
+      "Семёнов Семён",
+      "Смирнов Иван"
+    ],
+    "emails": [
+      "mail@mail.ru",
+      "mail1@mail.ru",
+      "mail2@mail.ru",
+      "mail3@mail.ru",
+      "mail4@mail.ru"
+    ],
+    "avatar": [
+      "avatar.jpg",
+      "avatar1.jpg",
+      "avatar2.jpg",
+      "avatar3.jpg",
+      "avatar4.jpg"
+    ]
+  }
+}

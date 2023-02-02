@@ -1,7 +1,7 @@
+import {FileReaderInterface} from '../file-reader/file-reader-interface.js';
 import { readFileSync } from 'fs';
-import { Film } from '../../../types/film.type.js';
-import { Genre } from '../../../types/film-genre.enum.js';
-import { FileReaderInterface } from './file-reader.interface.js';
+import { Film } from '../../types/film.type.js';
+import { Genre } from '../../types/film-genre.enum.js';
 
 export default class TSVFileReader implements FileReaderInterface {
   private rawData = '';
@@ -21,27 +21,8 @@ export default class TSVFileReader implements FileReaderInterface {
       .split('\n')
       .filter((row) => row.trim() !== '')
       .map((line) => line.split('\t'))
-      .map(([title,
-        description,
-        publicationDate,
-        genre,
-        releaseYear,
-        rating,
-        preview,
-        video,
-        actors,
-        producers,
-        duration,
-        commentsCount,
-        poster,
-        backgroundImage,
-        backgroundColor,
-        name,
-        email,
-        avatar,
-        password
-      ]) => ({
-        title,
+      .map(([titleFilm, description, publicationDate, genre, releaseYear, rating, preview, video, actors, producers, duration, commentsCount, poster, backgroundImage, backgroundColor, name, email, avatar, password]) => ({
+        titleFilm,
         description,
         publicationDate: new Date(publicationDate),
         genre: genre.split(';').map((g) => g as Genre),
@@ -53,12 +34,10 @@ export default class TSVFileReader implements FileReaderInterface {
         producers: producers.split(';'),
         duration: parseInt(duration, 10),
         commentsCount: parseInt(commentsCount, 10),
-        user: {name, email, avatar, password},
         poster,
-        backgroundImage,
-        backgroundColor
-      }
-      )
-      );
+        user: {email, name, avatar, password},
+        backgroundColor,
+        backgroundImage
+      }));
   }
 }
