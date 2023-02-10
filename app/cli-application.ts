@@ -1,4 +1,4 @@
-import { CliCommandInterface } from '../cli-command/cli-command.interface.js';
+import { CliCommandInterface } from '../../2058203-what-to-watch-3/src/cli-command/cli-command.interface.js';
 
 type ParsedCommand = {
   [key: string]: string[]

@@ -68,9 +68,9 @@ npm start
 
 ### Запустить JSON-сервер
 
-```bash
+
 npm run mock: server
-```
+
 
 Сервер запускается на порте 3123
 
