@@ -23,8 +23,8 @@ export default class MovieGenerator implements MovieGeneratorInterface {
   public generate(): string {
     const titleMovie = getRandomItem<string>(this.mockData.titleMovie);
     const description = getRandomItem<string>(this.mockData.description);
-    const publicationDate = dayjs().subtract(generateRandomValue(FIRST_WEEK_DAY, LAST_WEEK_DAY), 'day').toISOString();
     const genreMovie = getRandomItems<string>(this.mockData.genreMovie).join(';');
+    const publicationDate = dayjs().subtract(generateRandomValue(FIRST_WEEK_DAY, LAST_WEEK_DAY), 'day').toISOString();
     const releaseYear = generateRandomValue(MIN_YEAR, MAX_YEAR).toString();
     const rating = generateRandomValue(MIN_RATING, MAX_RATING);
     const moviePreviewLink = getRandomItem<string>(this.mockData.moviePreviewLink);
