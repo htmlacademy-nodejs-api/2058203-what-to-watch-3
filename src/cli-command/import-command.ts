@@ -11,7 +11,7 @@ export default class ImportCommand implements CliCommandInterface {
   }
 
   private onComplete(count: number) {
-    console.log(`${count} строк успешно импортированы.`);
+    console.log(`${count} rows successfully imported.`);
   }
 
   public async execute(filename: string): Promise<void> {
@@ -20,7 +20,7 @@ export default class ImportCommand implements CliCommandInterface {
     fileReader.on('end', this.onComplete);
 
     try {
-      await fileReader.read ();
+      await fileReader.read();
     } catch (err) {
       const error = typeof err === 'string' ? err : '';
       console.log(`Unable to import data from file because: "${getErrorMessage(error)}"`);

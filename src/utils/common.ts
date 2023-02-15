@@ -1,4 +1,4 @@
-import { GenreMovie } from '../types/movie-genre.enum.js';
+import { genreMovies } from '../types/movie-genre.enum.js';
 import { Movie } from '../types/movie.type.js';
 
 export const createMovie = (row: string): Movie => {
@@ -30,8 +30,8 @@ export const createMovie = (row: string): Movie => {
     description: description,
     publicationDate: new Date(publicationDate),
     genreMovie: genreMovie.split(';').map((g) => {
-      if (g in Object.keys(GenreMovie)) {
-        return g as GenreMovie;
+      if (g in Object.keys(genreMovie)) {
+        return g as genreMovies;
       } else {
         throw new Error('There is no such genre!');
       }
@@ -45,7 +45,7 @@ export const createMovie = (row: string): Movie => {
     duration: parseInt(duration, 10),
     commentsCount: parseInt(commentsCount, 10),
     poster: poster,
-    userName: {userName, email, avatar, password},
+    user: { userName, email, avatar, password },
     backgroundImage: backgroundImage,
     backgroundColor: backgroundColor,
   };

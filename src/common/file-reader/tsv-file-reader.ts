@@ -1,5 +1,5 @@
-import {FileReaderInterface} from './file-reader-interface.js';
-import { EventEmitter } from 'node:events';
+import { FileReaderInterface } from './file-reader-interface.js';
+import { EventEmitter } from 'events';
 import { createReadStream } from 'fs';
 
 export default class TSVFileReader extends EventEmitter implements FileReaderInterface {
@@ -7,7 +7,7 @@ export default class TSVFileReader extends EventEmitter implements FileReaderInt
     super();
   }
 
-  public async read():Promise<void> {
+  public async read(): Promise<void> {
     const steam = createReadStream(this.filename, {
       highWaterMark: 16384,
       encoding: 'utf-8',
