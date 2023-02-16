@@ -1,0 +1,145 @@
+{
+  "api": {
+    "titles": [
+      "Aviator",
+      "The Grand Budapest Hotel",
+      "Bohemian rhapsody",
+      "Fantastic Beasts: The Crimes of Grindelwald",
+      "Dardjeeling limited",
+      "Johnny English",
+      "Revenant"
+    ],
+    "description": [
+      "Based on the 1993 non-fiction book Howard Hughes: The Secret Life by Charles Higham, the film depicts the life of Howard Hughes, an aviation pioneer and director of the film Hell's Angels. The film portrays his life from 1927 to 1947 during which time Hughes became a successful film producer and an aviation magnate while simultaneously growing more unstable due to severe obsessive–compulsive disorder (OCD).",
+      "In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.",
+      "It focuses on the life of Freddie Mercury, the lead singer of the British rock band Queen, from the formation of the band in 1970 to their 1985 Live Aid performance at the original Wembley Stadium.",
+      "In an effort to thwart Grindelwald's plans of raising pure-blood wizards to rule over all non-magical beings, Albus Dumbledore enlists his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "In The Darjeeling Limited, three American brothers who have not spoken to each other in a year set off on a train voyage across India with a plan to find themselves, bond with each other, and become brothers again; unfortunately, their spiritual quest quickly turns into a chaotic bender, and they end up stranded alone in the middle of the desert with eleven suitcases, a printer, and a laminating machine -- at which point a new, unplanned journey suddenly begins. Owen Wilson, Adrien Brody, and Jason Schwartzman star in this film about their adventure and their friendship.",
+      "When a funeral of a British spy is attacked, all of the remaining spies are killed. Only one spy is left and is now Britain's last hope. Johnny English and his sidekick, Bough have been assigned the case of investigating the theft of the British Crown Jewels. The prime suspect is a mysterious French entrepreneur, known as Pascal Sauvage. English and Bough soon find out the horrifying truth behind the theft and Sauvage, but it's not going to be an easy job to bring him to justice.",
+      "'The Revenant' follows the story of legendary explorer Hugh Glass (DiCaprio) on his quest for survival and justice. After a brutal bear attack, Glass is left for dead by a treacherous member of his hunting team (Tom Hardy). Against extraordinary odds, and enduring unimaginable grief, Glass battles a relentless winter in uncharted terrain. This epic adventure captures the extraordinary power of the human spirit in an immersive and visceral experience unlike anything before."
+    ],
+    "genre": [
+      "Comedy",
+      "Crime",
+      "Documentary",
+      "Drama",
+      "Horror",
+      "Family",
+      "Romance",
+      "Scifi",
+      "Thriller"
+    ],
+    "releaseYear": [
+      "2004",
+      "2014",
+      "2018",
+      "2018",
+      "2007",
+      "2003",
+      "2015"
+    ],
+    "rating": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "filmPrewiew": [
+      "Aviator_preview.mp4",
+      "The-grand-budapest-hotel_preview.mp4",
+      "Bohemian-rhapsody_preview.mp4",
+      "FantasticBeastsTheCrimesofGrindelwald_preview.mp4",
+      "Dardjeeling-limited_preview.mp4",
+      "Johnny-english_preview.mp4",
+      "Revenant_preview.mp4"
+    ],
+    "filmVideo": [
+      "Aviator.mp4",
+      "The-grand-budapest-hotel.mp4",
+      "Bohemian-rhapsody.mp4",
+      "FantasticBeastsTheCrimesofGrindelwald.mp4",
+      "Dardjeeling-limited.mp4",
+      "Johnny-english.mp4",
+      "Revenant.mp4"
+    ],
+    "actors": [
+      "Actors1",
+      "Actors2",
+      "Actors3",
+      "Actors4",
+      "Actors5",
+      "Actors6",
+      "Actors7"
+    ],
+    "producers": [
+      "Producer1",
+      "Producer2",
+      "Producer3",
+      "Producer4",
+      "Producer5",
+      "Producer6",
+      "Producer7"
+    ],
+    "duration": [
+      163,
+      100,
+      134,
+      134,
+      92,
+      84,
+      156
+    ],
+    "poster": [
+      "aviator.jpg",
+      "the-grand-budapest-hotel-poster.jpg",
+      "bohemian-rhapsody.jpg",
+      "fantastic-beasts-the-crimes-of-grindelwald.jpg",
+      "dardjeeling-limited.jpg",
+      "johnny-english.jpg",
+      "revenant.jpg"
+    ],
+    "user": [
+      "Петров Петр",
+      "Павлов Павел",
+      "Борисов Борис",
+      "Семёнов Семён",
+      "Смирнов Иван"
+    ],
+    "emails": [
+      "mail@mail.ru",
+      "mail1@mail.ru",
+      "mail2@mail.ru",
+      "mail3@mail.ru",
+      "mail4@mail.ru"
+    ],
+    "avatar": [
+      "avatar.jpg",
+      "avatar1.jpg",
+      "avatar2.jpg",
+      "avatar3.jpg",
+      "avatar4.jpg"
+    ],
+    "backgroundImage": [
+      "backgroundImage.jpg",
+      "backgroundImage1.jpg",
+      "backgroundImage2.jpg",
+      "backgroundImage3.jpg",
+      "backgroundImage4.jpg"
+    ],
+    "backgroundColor": [
+      "0054d1",
+      "0000ff",
+      "114696",
+      "003686",
+      "0047ab",
+      "2a52be",
+      "003fbc"
+    ]
+  }
+}
