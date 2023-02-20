@@ -1,6 +1,6 @@
 {
   "api": {
-    "titles": [
+    "titleMovie": [
       "Aviator",
       "The Grand Budapest Hotel",
       "Bohemian rhapsody",
@@ -18,7 +18,7 @@
       "When a funeral of a British spy is attacked, all of the remaining spies are killed. Only one spy is left and is now Britain's last hope. Johnny English and his sidekick, Bough have been assigned the case of investigating the theft of the British Crown Jewels. The prime suspect is a mysterious French entrepreneur, known as Pascal Sauvage. English and Bough soon find out the horrifying truth behind the theft and Sauvage, but it's not going to be an easy job to bring him to justice.",
       "'The Revenant' follows the story of legendary explorer Hugh Glass (DiCaprio) on his quest for survival and justice. After a brutal bear attack, Glass is left for dead by a treacherous member of his hunting team (Tom Hardy). Against extraordinary odds, and enduring unimaginable grief, Glass battles a relentless winter in uncharted terrain. This epic adventure captures the extraordinary power of the human spirit in an immersive and visceral experience unlike anything before."
     ],
-    "genre": [
+    "genreMovie": [
       "Comedy",
       "Crime",
       "Documentary",
@@ -50,7 +50,7 @@
       "9",
       "10"
     ],
-    "filmPrewiew": [
+    "moviePrewiewLink": [
       "Aviator_preview.mp4",
       "The-grand-budapest-hotel_preview.mp4",
       "Bohemian-rhapsody_preview.mp4",
@@ -59,7 +59,7 @@
       "Johnny-english_preview.mp4",
       "Revenant_preview.mp4"
     ],
-    "filmVideo": [
+    "movieVideoLink": [
       "Aviator.mp4",
       "The-grand-budapest-hotel.mp4",
       "Bohemian-rhapsody.mp4",
@@ -104,14 +104,14 @@
       "johnny-english.jpg",
       "revenant.jpg"
     ],
-    "user": [
+    "userName": [
       "Петров Петр",
       "Павлов Павел",
       "Борисов Борис",
       "Семёнов Семён",
       "Смирнов Иван"
     ],
-    "emails": [
+    "email": [
       "mail@mail.ru",
       "mail1@mail.ru",
       "mail2@mail.ru",

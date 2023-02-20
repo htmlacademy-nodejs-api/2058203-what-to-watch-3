@@ -13,5 +13,4 @@ applicationContainer.bind<Application>(Component.Application).to(Application).in
 applicationContainer.bind<LoggerInterface>(Component.LoggerInterface).to(LoggerService).inSingletonScope();
 applicationContainer.bind<ConfigInterface>(Component.ConfigInterface).to(ConfigService).inSingletonScope();
 
-const application = applicationContainer.get<Application>(Component.Application);
-await application.init();
+const application = applicationContainer.get<Application>(Component.Application);await application.init();
