@@ -1,19 +1,20 @@
-import { genreMovies } from '../types/movie-genre.enum.js';
+import crypto from 'crypto';
 import { Movie } from '../types/movie.type.js';
 
-export const createMovie = (row: string): Movie => {
-  const tokens = row.replace('\n', '').split('\t');
+export const createMovie = (row: string) => {
+  const items = row.replace('\n', '').split('\t');
+
   const [
-    titleFilm,
+    titleMovie,
     description,
     publicationDate,
     genreMovie,
     releaseYear,
     rating,
-    moviePreview,
-    movieVideo,
+    moviePreviewLink,
+    movieVideoLink,
     actors,
-    producers,
+    producer,
     duration,
     commentsCount,
     poster,
@@ -23,33 +24,32 @@ export const createMovie = (row: string): Movie => {
     password,
     backgroundImage,
     backgroundColor
-  ] = tokens;
+  ] = items;
 
   return {
-    titleMovie: titleFilm,
-    description: description,
+    titleMovie,
+    description,
     publicationDate: new Date(publicationDate),
-    genreMovie: genreMovie.split(';').map((g) => {
-      if (g in Object.keys(genreMovie)) {
-        return g as genreMovies;
-      } else {
-        throw new Error('There is no such genre!');
-      }
-    }),
-    releaseYear: parseInt(releaseYear, 10),
-    rating: parseFloat(rating),
-    moviePreviewLink: moviePreview,
-    movieVideoLink: movieVideo,
-    actors: actors.split(';'),
-    producers: producers.split(';'),
-    duration: parseInt(duration, 10),
-    commentsCount: parseInt(commentsCount, 10),
-    poster: poster,
-    user: { userName, email, avatar, password },
-    backgroundImage: backgroundImage,
-    backgroundColor: backgroundColor,
-  };
+    genreMovie,
+    releaseYear: Number(releaseYear),
+    rating: Number(rating),
+    moviePreviewLink,
+    movieVideoLink,
+    actors: actors.split('; ').map((actor) => actor),
+    producer,
+    duration: Number(duration),
+    poster,
+    commentsCount: Number(commentsCount),
+    user: {userName, email, avatar, password},
+    backgroundImage,
+    backgroundColor,
+  } as Movie;
 };
 
-export const getErrorMessage = (error: Error | string): string =>
+export const getErrorMessage = (error: unknown): string =>
   error instanceof Error ? error.message : '';
+
+export const createSHA256 = (line: string, salt: string): string => {
+  const shaHasher = crypto.createHmac('sha256', salt);
+  return shaHasher.update(line).digest('hex');
+};

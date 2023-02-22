@@ -1,6 +1,7 @@
 export type mockData = {
   titleMovie: string[];
   description: string[];
+  genresMovie: string[];
   rating: string[];
   moviePreviewLink: string[];
   movieVideoLink: string[];
