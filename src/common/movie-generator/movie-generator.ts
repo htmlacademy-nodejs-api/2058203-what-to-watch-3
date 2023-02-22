@@ -1,8 +1,7 @@
+import dayjs from 'dayjs';
 import { MovieGeneratorInterface } from './movie-generator-interface.js';
 import { mockData } from '../../types/mock-data.type.js';
 import { getRandomItem, getRandomItems, generateRandomValue, generateRandomPassword } from '../../utils/random.js';
-import dayjs from 'dayjs';
-import { genreMovies } from '../../types/movie-genre.enum.js';
 
 const FIRST_WEEK_DAY = 1;
 const LAST_WEEK_DAY = 7;
@@ -28,13 +27,13 @@ export default class MovieGenerator implements MovieGeneratorInterface {
     const titleMovie = getRandomItem<string>(this.mockData.titleMovie);
     const description = getRandomItem<string>(this.mockData.description);
     const publicationDate = dayjs().subtract(generateRandomValue(FIRST_WEEK_DAY, LAST_WEEK_DAY), 'day').toISOString();
-    const genreMovie = getRandomItems<string>(Object.values(genreMovies)).join('; ');
+    const genreMovie = getRandomItem<string>(this.mockData.genresMovie);
     const releaseYear = generateRandomValue(MIN_RELEASE_YEAR, MAX_RELEASE_YEAR);
     const rating = generateRandomValue(MIN_RATING, MAX_RATING, NUM_AFTER_DIGIT);
     const moviePreviewLink = getRandomItem<string>(this.mockData.moviePreviewLink);
     const movieVideoLink = getRandomItem<string>(this.mockData.movieVideoLink);
     const actors = getRandomItems<string>(this.mockData.actors).join(', ');
-    const producers = getRandomItem<string>(this.mockData.producers);
+    const producer = getRandomItem<string>(this.mockData.producers);
     const duration = generateRandomValue(MIN_DURATION, MAX_DURATION);
     const commentsCount = generateRandomValue(MIN_COMMENTS, MAX_COMMENTS);
     const userName = getRandomItem<string>(this.mockData.userName);
@@ -55,7 +54,7 @@ export default class MovieGenerator implements MovieGeneratorInterface {
       moviePreviewLink,
       movieVideoLink,
       actors,
-      producers,
+      producer,
       duration,
       commentsCount,
       userName,

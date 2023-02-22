@@ -18,7 +18,7 @@
       "When a funeral of a British spy is attacked, all of the remaining spies are killed. Only one spy is left and is now Britain's last hope. Johnny English and his sidekick, Bough have been assigned the case of investigating the theft of the British Crown Jewels. The prime suspect is a mysterious French entrepreneur, known as Pascal Sauvage. English and Bough soon find out the horrifying truth behind the theft and Sauvage, but it's not going to be an easy job to bring him to justice.",
       "'The Revenant' follows the story of legendary explorer Hugh Glass (DiCaprio) on his quest for survival and justice. After a brutal bear attack, Glass is left for dead by a treacherous member of his hunting team (Tom Hardy). Against extraordinary odds, and enduring unimaginable grief, Glass battles a relentless winter in uncharted terrain. This epic adventure captures the extraordinary power of the human spirit in an immersive and visceral experience unlike anything before."
     ],
-    "genreMovie": [
+    "genresMovie": [
       "Comedy",
       "Crime",
       "Documentary",
@@ -27,7 +27,9 @@
       "Family",
       "Romance",
       "Scifi",
-      "Thriller"
+      "Thriller",
+      "Fantasy",
+      "Adventure"
     ],
     "releaseYear": [
       "2004",
@@ -95,15 +97,6 @@
       84,
       156
     ],
-    "poster": [
-      "aviator.jpg",
-      "the-grand-budapest-hotel-poster.jpg",
-      "bohemian-rhapsody.jpg",
-      "fantastic-beasts-the-crimes-of-grindelwald.jpg",
-      "dardjeeling-limited.jpg",
-      "johnny-english.jpg",
-      "revenant.jpg"
-    ],
     "userName": [
       "Петров Петр",
       "Павлов Павел",
@@ -124,6 +117,22 @@
       "avatar2.jpg",
       "avatar3.jpg",
       "avatar4.jpg"
+    ],
+    "passwods": [
+      "petrov123",
+      "pavlov111",
+      "borisov321",
+      "semenov987",
+      "smirnov765"
+    ],
+    "poster": [
+      "aviator.jpg",
+      "the-grand-budapest-hotel-poster.jpg",
+      "bohemian-rhapsody.jpg",
+      "fantastic-beasts-the-crimes-of-grindelwald.jpg",
+      "dardjeeling-limited.jpg",
+      "johnny-english.jpg",
+      "revenant.jpg"
     ],
     "backgroundImage": [
       "backgroundImage.jpg",
