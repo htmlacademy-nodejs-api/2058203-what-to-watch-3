@@ -2,8 +2,8 @@ import { Container } from 'inversify';
 import { types } from '@typegoose/typegoose';
 import { MovieEntity, MovieModel } from './movie.entity.js';
 import { MovieServiceInterface } from './movie-service.interface.js';
-import MovieService from './movie.service.js';
 import { Component } from '../../types/component.type.js';
+import MovieService from './movie.service.js';
 
 const movieContainer = new Container();
 
